@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AddEmployee Suit">
+
+	<listeners>
+		<listener class-name="com.neotech.testbase.Listener" />
+
+	</listeners>
+
+
+	<test thread-count="5" name="AddEmployee Test">
+
+		<groups>
+			<run>
+
+				<include name="AddEmployee"></include>
+
+
+			</run>
+
+
+		</groups>
+
+
+		<packages>
+			<package name="com.neotech.testcases" />
+		</packages>
+	</test> <!-- Test -->
+</suite> <!-- AddEmployee Suit -->
