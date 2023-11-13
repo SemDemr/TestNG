@@ -103,7 +103,7 @@
                     <div class="method-list-content skipped suite-Smoke_Suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Smoke_Suite" title="com.neotech.testcases.LoginTest" class="method navigator-link" hash-for-method="validLogin">validLogin</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Smoke_Suite" title="com.qa.testcases.LoginTest" class="method navigator-link" hash-for-method="validLogin">validLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Smoke_Suite -->
@@ -121,7 +121,7 @@
           <div class="suite-Smoke_Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.neotech.testcases.LoginTest</span>
+              <span class="class-name">com.qa.testcases.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -129,9 +129,9 @@
                   <a name="validLogin">
                   </a> <!-- validLogin -->
                   <span class="method-name">validLogin</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;com.neotech.utils.ConfigsReader.prop&quot; is null
-	at com.neotech.utils.ConfigsReader.getProperty(ConfigsReader.java:39)
-	at com.neotech.testbase.BaseClass.setUp(BaseClass.java:27)
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;com.qa.utils.ConfigsReader.prop&quot; is null
+	at com.qa.utils.ConfigsReader.getProperty(ConfigsReader.java:39)
+	at com.qa.testbase.BaseClass.setUp(BaseClass.java:27)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 31 stack frames
 </div> <!-- stack-trace -->
@@ -150,7 +150,7 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Smoke Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
-    &lt;listener class-name=&quot;com.neotech.testbase.Listener&quot;/&gt;
+    &lt;listener class-name=&quot;com.qa.testbase.Listener&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Smoke Test&quot;&gt;
     &lt;groups&gt;
@@ -159,10 +159,10 @@
       &lt;/run&gt;
     &lt;/groups&gt;
     &lt;packages&gt;
-      &lt;package name=&quot;com.neotech.testcases&quot;/&gt;
+      &lt;package name=&quot;com.qa.testcases&quot;/&gt;
     &lt;/packages&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.neotech.testcases.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.testcases.LoginTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Smoke Test --&gt;
 &lt;/suite&gt; &lt;!-- Smoke Suite --&gt;
@@ -221,7 +221,7 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validLogin')
-data.setCell(0, 2, 'com.neotech.testcases.LoginTest')
+data.setCell(0, 2, 'com.qa.testcases.LoginTest')
 data.setCell(0, 3, 0);
 window.suiteTableData['Smoke_Suite']= { tableData: data, tableDiv: 'times-div-Smoke_Suite'}
 return data;
@@ -253,7 +253,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.neotech.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.qa.testcases.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <img src="failed.png">
                 </img>

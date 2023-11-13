@@ -3,7 +3,7 @@
 <suite name="Regression Suite">
 	<listeners>
 
-		<listener class-name="com.neotech.testbase.Listener"></listener>
+		<listener class-name="com.qa.testbase.Listener"></listener>
 
 
 	</listeners>
@@ -25,7 +25,7 @@
 
 
 		<packages>
-			<package name="com.neotech.testcases" />
+			<package name="com.qa.testcases" />
 		</packages>
 	</test> <!-- Regression Test-->
 </suite> <!-- Regression Suite -->

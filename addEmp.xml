@@ -3,7 +3,7 @@
 <suite name="Suite ">
   <test thread-count="5" name="addEmp">
     <classes>
-      <class name="com.neotech.testcases.AddEmployeeTest"/>
+      <class name="com.qa.testcases.AddEmployeeTest"/>
     </classes>
   </test> <!-- addEmp -->
 </suite> <!-- Suite  -->

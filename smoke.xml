@@ -4,7 +4,7 @@
 
 	<listeners>
 
-		<listener class-name="com.neotech.testbase.Listener"></listener>
+		<listener class-name="com.qa.testbase.Listener"></listener>
 
 
 	</listeners>
@@ -25,7 +25,7 @@
 
 
 		<packages>
-			<package name="com.neotech.testcases" />
+			<package name="com.qa.testcases" />
 		</packages>
 	</test> <!-- Smoke Test -->
 </suite> <!-- Smoke Suite -->
