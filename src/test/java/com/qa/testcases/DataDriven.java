@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import com.qa.utils.ExcelUtility;
 
-public class DataProviderDemo {
+public class DataDriven {
 
 	@Test(dataProvider = "excelData")
 	public void printInformation(String name, String lastName, String age) {
@@ -17,7 +17,7 @@ public class DataProviderDemo {
 	@DataProvider
 	public Object[][] createData() {
 
-		Object[][] data = { { "Fahri", "sss", 25 }, { "Sabah", "Bushaj", 25 } };
+		Object[][] data = { { "John", "Smith", 25 }, { "Kevin", "Brown", 25 } };
 
 		return data;
 

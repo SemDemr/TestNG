@@ -6,9 +6,9 @@ import com.qa.pages.DashboardPageElements;
 import com.qa.pages.LoginPageElements;
 import com.qa.utils.ConfigsReader;
 
-import org.testng.AssertJUnit;
+
 import org.testng.Assert;
-import org.testng.annotations.Test;
+
 
 public class LoginTest extends com.qa.utils.CommonMethods {
 	
@@ -69,7 +69,7 @@ public class LoginTest extends com.qa.utils.CommonMethods {
 
 		sendText(login.username, ConfigsReader.getProperty("username"));
 		wait(1);
-		sendText(login.password, "Neotech123");
+		sendText(login.password, "Ndfggff");
 		wait(1);
 
 		click(login.logInButton);
